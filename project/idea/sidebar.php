@@ -1,6 +1,11 @@
+<?php
+/**
+ * The sidebar containing the main widget area
+ *
+ * @package Blog_Plus_CMS_Pro
+ * @since 1.0
+ */
 
-
-<?php if (is_active_sidebar('sidebar-main')) : ?>
-    <?php dynamic_sidebar('sidebar-main'); ?>
-<?php endif; ?>
-
+if (is_active_sidebar('sidebar-main')) :
+    dynamic_sidebar('sidebar-main');
+endif;
